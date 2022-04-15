@@ -11,14 +11,38 @@
   background-color: bisque;
 }
 .hero-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: inherit;
+  transform: translateY(-50px);
 }
 .hero-right {
-  background-color: #fff;
+  background-image: url(/img/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* About */
 .about {
-  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: bisque;
+}
+.about-left {
+  background-image: url(/img/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  transform: translateY(-50px);
 }
 /* service */
 .service {
