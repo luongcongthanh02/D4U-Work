@@ -1,0 +1,60 @@
+/* header */
+.header {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+}
+/* hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: bisque;
+}
+.hero-left {
+  background-color: inherit;
+}
+.hero-right {
+  background-color: #fff;
+}
+/* About */
+.about {
+  background-color: aqua;
+}
+/* service */
+.service {
+  background-color: blue;
+}
+/* feature */
+.feature {
+  background-color: blueviolet;
+}
+/* contact */
+.contact {
+  background-color: aqua;
+}
+/* cta */
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+}
+.cta span {
+  padding: 20px;
+  align-items: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transition: 1 ease-in;
+}
+.cta span:hover {
+  height: 100%;
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+}

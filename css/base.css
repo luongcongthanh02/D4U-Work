@@ -1,0 +1,21 @@
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+a,
+ul {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+.bg {
+  /* position: absolute; */
+}
